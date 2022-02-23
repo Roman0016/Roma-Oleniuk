@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Roma Oleniuk</title>
+	<link rel="icon" type="image/x-icon" href="img/favicon.ico">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<style>
+		body,
+		h1,
+		h2,
+		h3,
+		h4,
+		h5,
+		h6 {
+			font-family: "Montserrat", sans-serif
+		}
+
+		.w3-row-padding img {
+			margin-bottom: 12px
+		}
+
+		/* Set the width of the sidebar to 120px */
+		.w3-sidebar {
+			width: 120px;
+			background: #222;
+		}
+
+		/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+		#main {
+			margin-left: 120px
+		}
+
+		/* Remove margins from "page content" on small screens */
+		@media only screen and (max-width: 600px) {
+			#main {
+				margin-left: 0
+			}
+		}
+	</style>
+</head>
+
+<body class="w3-black">
+
+	<!-- Icon Bar (Sidebar - hidden on small screens) -->
+	<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+		<!-- Avatar image in top left corner -->
+		<img src="img/main-left.png" style="width:100%">
+		<a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
+			<i class="fa fa-home w3-xxlarge"></i>
+			<p>HOME</p>
+		</a>
+		<a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+			<i class="fa fa-user w3-xxlarge"></i>
+			<p>ABOUT</p>
+		</a>
+		<a href="#photos" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+			<i class="fa fa-eye w3-xxlarge"></i>
+			<p>PHOTOS</p>
+		</a>
+		<a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+			<i class="fa fa-envelope w3-xxlarge"></i>
+			<p>CONTACT</p>
+		</a>
+	</nav>
+
+	<!-- Navbar on small screens (Hidden on medium and large screens) -->
+	<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+		<div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+			<a href="#" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
+			<a href="#about" class="w3-bar-item w3-button" style="width:25% !important">ABOUT</a>
+			<a href="#photos" class="w3-bar-item w3-button" style="width:25% !important">PHOTOS</a>
+			<a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">CONTACT</a>
+		</div>
+	</div>
+
+	<!-- Page Content -->
+	<div class="w3-padding-large" id="main">
+		<!-- Header/Home -->
+		<header class="w3-container w3-padding-32 w3-center w3-black" id="home">
+			<h1 class="w3-jumbo"><span class="w3-hide-small">I'm </span> Roman Oleniuk</h1>
+			<p>Junior Front-end Developer and Web Designer.</p>
+			<!--<img src="https://www.w3schools.com/w3images/man_smoke.jpg" alt="boy" class="w3-image" width="992" height="1108">-->
+			<img src="img/main.png" alt="boy" class="w3-image" width="992" height="1108">
+		</header>
+
+		<!-- About Section -->
+		<div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
+			<h2 class="w3-text-light-grey">About Me</h2>
+			<hr style="width:200px" class="w3-opacity">
+			<p>Мене звати Роман! Я реалізовую онлайн проекти, збираю всю потрібну інформацію, розвиваю себе в IT-сфері,
+				досягаю поставлених цілей, будую успішне майбутнє.
+				<br>
+				<br><b><i>Освіта:</i></b> Soft Serve | IT academy
+				<br><b><i>Місто:</i></b> Lviv
+				<br><b><i>Тривалість:</i></b> 01.10.2021 - 29.10.2021
+				<br><b><i>Навички:</i></b> HTML5/ CSS3/ JavaScript Fundamentals
+				<br><b><i>Особисті якості:</i></b> Відданість справі, пунктуальність, відповідальність,
+				комунікабельність.
+				<br>
+				<br><b><i>Академічні проекти:</i></b> Проектування та реалізація інтернет - магазину.
+				<br><a href="https://koldovsky.github.io/638-team-06/">1) Wine Store </a>
+				<br><a href="https://koldovsky.github.io/638-team-05/">2) IPTV Fox</a>
+				<br><a href="https://koldovsky.github.io/638-team-04/">3) Yosemite Vacation</a>
+				<br><a href="https://koldovsky.github.io/638-team-03/">4) Handmade Lingerie</a>
+				<br><a href="https://koldovsky.github.io/638-team-02/">5) Sport Close Store</a>
+				<br><a href="https://koldovsky.github.io/638-team-01/">6) Furniture Store</a>
+
+				<br><b><i>Релевантний досвіт:</i></b> Розробив односторінковий сайт для некомерційного проекту.
+				Технології, які використовував: HTML/CSS/JavaScript
+				<br><a href="https://roman0016.github.io/responsive-travel-website-main/">1) Travel Website </a>
+				<br><a href="https://roman0016.github.io/responsive-website-restaurant-main/">2) Restaurant Website</a>
+			</p>
+			<h3 class="w3-padding-16 w3-text-light-grey">My Skills</h3>
+			<p class="w3-wide">Обробка фото</p>
+			<div class="w3-white">
+				<div class="w3-dark-grey" style="height:28px;width:95%"></div>
+			</div>
+			<p class="w3-wide">Обробка графіки</p>
+			<div class="w3-white">
+				<div class="w3-dark-grey" style="height:28px;width:85%"></div>
+			</div>
+			<p class="w3-wide">HTML/CSS</p>
+			<div class="w3-white">
+				<div class="w3-dark-grey" style="height:28px;width:80%"></div>
+			</div><br>
+
+			<div class="w3-row w3-center w3-padding-16 w3-section w3-light-grey">
+				<div class="w3-quarter w3-section">
+					<span class="w3-xlarge">5+</span><br>
+					Partners
+				</div>
+				<div class="w3-quarter w3-section">
+					<span class="w3-xlarge">28+</span><br>
+					Projects Done
+				</div>
+				<div class="w3-quarter w3-section">
+					<span class="w3-xlarge">28+</span><br>
+					Happy Clients
+				</div>
+				<div class="w3-quarter w3-section">
+					<span class="w3-xlarge">6+</span><br>
+					Meetings
+				</div>
+			</div>
+
+			<!-- Grid for pricing tables -->
+
+			<h3 class="w3-padding-16 w3-text-light-grey">My Price</h3>
+			<div class="w3-row-padding" style="margin:0 -16px">
+				<div class="w3-half w3-margin-bottom">
+					<ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+						<li class="w3-dark-grey w3-xlarge w3-padding-32">Landing Page</li>
+						<li class="w3-padding-16">Веб - дизайн</li>
+						<li class="w3-padding-16">Проста навігація</li>
+						<li class="w3-padding-16">Креативи</li>
+						<li class="w3-padding-16">Бургер</li>
+						<li class="w3-padding-16">Pop-Up (за бажанням)</li>
+						<li class="w3-padding-16">Контактна форма</li>
+						<li class="w3-padding-16">Адаптивний дизайн</li>
+						<li class="w3-padding-16">Блок контактної інформації</li>
+						<li class="w3-padding-16">
+							<h2>1500 грн</h2>
+							<span class="w3-opacity"></span>
+						</li>
+						<li class="w3-light-grey w3-padding-24">
+							<a href="https://t.me/roma_drop"><button
+									class="w3-button w3-white w3-padding-large w3-hover-black">Замовити</button></a>
+						</li>
+					</ul>
+				</div>
+
+				<div class="w3-half">
+					<ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+						<li class="w3-dark-grey w3-xlarge w3-padding-32">Сайт - Визитка</li>
+						<li class="w3-padding-16">Веб - дизайн</li>
+						<li class="w3-padding-16">Проста навігація</li>
+						<li class="w3-padding-16">Креативи</li>
+						<li class="w3-padding-16">Бургер</li>
+						<li class="w3-padding-16">Pop-Up (за бажанням)</li>
+						<li class="w3-padding-16">Контактна форма</li>
+						<li class="w3-padding-16">Адаптивний дизайн</li>
+						<li class="w3-padding-16">Блок контактної інформації</li>
+						<li class="w3-padding-16">
+							<h2>1000 грн</h2>
+							<span class="w3-opacity"></span>
+						</li>
+						<li class="w3-light-grey w3-padding-24">
+							<a href="https://t.me/roma_drop"><button
+									class="w3-button w3-white w3-padding-large w3-hover-black">Замовити</button></a>
+						</li>
+					</ul>
+				</div>
+
+				<div class="w3-row-padding" style="margin:0 -16px">
+					<div class="w3-half w3-margin-bottom">
+						<ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+							<li class="w3-dark-grey w3-xlarge w3-padding-32">Сайт на основі Tilda</li>
+							<li class="w3-padding-16">Веб - дизайн</li>
+							<li class="w3-padding-16">Створення макету в Tilda</li>
+							<li class="w3-padding-16">Перенесення в редактор</li>
+							<li class="w3-padding-16">Завантаження на репозиторій</li>
+							<li class="w3-padding-16">
+								<h2>1500 грн</h2>
+								<span class="w3-opacity"></span>
+							</li>
+							<li class="w3-light-grey w3-padding-24">
+								<a href="https://t.me/roma_drop"><button
+										class="w3-button w3-white w3-padding-large w3-hover-black">Замовити</button></a>
+							</li>
+						</ul>
+					</div>
+
+					<div class="w3-half">
+						<ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+							<li class="w3-dark-grey w3-xlarge w3-padding-32">Сайт Портфоліо</li>
+							<li class="w3-padding-16">Дизайн ваших фото</li>
+							<li class="w3-padding-16">Кортка інформація про вас</li>
+							<li class="w3-padding-16">Блок ваші навички в роботі </li>
+							<li class="w3-padding-16">Блок контактної інформації</li>
+							<li class="w3-padding-16">
+								<h2>1000 грн</h2>
+								<span class="w3-opacity"></span>
+							</li>
+							<li class="w3-light-grey w3-padding-24">
+								<a href="https://t.me/roma_drop"><button
+										class="w3-button w3-white w3-padding-large w3-hover-black">Замовити</button></a>
+							</li>
+						</ul>
+					</div>
+
+					<div class="w3-row-padding" style="margin:0 -16px">
+						<div class="w3-half w3-margin-bottom">
+							<ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+								<li class="w3-dark-grey w3-xlarge w3-padding-32">Мини - Магазин</li>
+								<li class="w3-padding-16">Веб - дизайн</li>
+								<li class="w3-padding-16">Каталог товарів</li>
+								<li class="w3-padding-16">Кошик покупця</li>
+								<li class="w3-padding-16">Сторінка оформлення замовлення</li>
+								<li class="w3-padding-16">Інформація про оплату/доставку</li>
+								<li class="w3-padding-16">Інформація про магазин</li>
+								<li class="w3-padding-16">Відгуки</li>
+								<li class="w3-padding-16">
+									<h2>4000 грн</h2>
+									<span class="w3-opacity"></span>
+								</li>
+								<li class="w3-light-grey w3-padding-24">
+									<a href="https://t.me/roma_drop"><button
+											class="w3-button w3-white w3-padding-large w3-hover-black">Замовити</button></a>
+								</li>
+							</ul>
+						</div>
+
+						<div class="w3-half">
+							<ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+								<li class="w3-dark-grey w3-xlarge w3-padding-32">Интернет - магазин</li>
+								<li class="w3-padding-16">-</li>
+								<li class="w3-padding-16">-</li>
+								<li class="w3-padding-16">-</li>
+								<li class="w3-padding-16">-</li>
+								<li class="w3-padding-16">-</li>
+								<li class="w3-padding-16">-</li>
+								<li class="w3-padding-16">-</li>
+								<li class="w3-padding-16">
+									<h2>Тимчасово недоступний</h2>
+									<span class="w3-opacity"></span>
+								</li>
+								<li class="w3-light-grey w3-padding-24">
+									<a href="https://t.me/roma_drop"><button
+											class="w3-button w3-white w3-padding-large w3-hover-black">Замовити</button></a>
+								</li>
+							</ul>
+						</div>
+
+						<!--table price-->
+						<div class="w3-container">
+							<h2>Створи свій сайт</h2>
+							<p>Обери елементи та зв'яжися зі мною:</p>
+
+							<table class="w3-table-all">
+								<thead>
+									<tr class="w3-grey">
+										<th>Елемент Сайту</th>
+										<th>Ціна</th>
+										<th>Елемент Сайту</th>
+										<th>Ціна</th>
+									</tr>
+								</thead>
+								<tr>
+									<td>Бургер</td>
+									<td>50 грн</td>
+									<td>Адаптивний дизайн</td>
+									<td>100 грн</td>
+								</tr>
+								<tr>
+									<td>Pop-Up Окно</td>
+									<td>150 грн</td>
+									<td>Фотогалерея</td>
+									<td>50 грн - 5шт.</td>
+								</tr>
+								<tr>
+									<td>Контактна форма</td>
+									<td>200 грн</td>
+									<td>Виджети соц. сетей</td>
+									<td>20 грн - 1шт.</td>
+								</tr>
+								<tr>
+									<td>Простий блок</td>
+									<td>200 грн</td>
+									<td>Карусель</td>
+									<td>100 грн</td>
+								</tr>
+								<tr>
+									<td>Тяжкий блок</td>
+									<td>400 грн</td>
+									<td>Розкрутка</td>
+									<td>50$</td>
+								</tr>
+								<tr>
+									<td>Доп. сторінки</td>
+									<td>500 грн - 1шт.</td>
+									<td>Репозиторій git hub</td>
+									<td>Безкоштовно</td>
+								</tr>
+								<tr>
+									<td>Логотип </td>
+									<td>100 грн</td>
+									<td>Вічні сторіс</td>
+									<td>50 грн - 1шт.</td>
+								</tr>
+							</table>
+						</div>
+						<!-- End Grid/Pricing tables -->
+					</div>
+					<!-- End About Section -->
+				</div>
+				<li class="w3-light-grey w3-padding-24">
+					<a href="https://t.me/roma_drop"><button class="w3-button w3-white w3-padding-large w3-hover-black"
+							style="position: relative;
+							left: 50%;
+							transform: translate(-50%, 0);">Замовити</button></a>
+				</li>
+
+				<!-- Portfolio Section -->
+				<div class="w3-padding-64 w3-content" id="photos">
+					<h2 class="w3-text-light-grey">My Photos</h2>
+					<hr style="width:200px" class="w3-opacity">
+
+					<!-- Grid for photos -->
+					<div class="w3-row-padding" style="margin:0 -16px">
+						<div class="w3-half">
+							<img src="img/certificate.jpg" style="width:100%">
+							<img src="img/red-school.jpg" style="width:100%">
+							<img src="img/studia.jpg" style="width:100%">
+						</div>
+
+						<div class="w3-half">
+							<img src="img/black-white.jpg" style="width:100%">
+							<img src="img/red-box.jpg" style="width:100%">
+							<img src="img/craft.jpg" style="width:100%">
+						</div>
+						<!-- End photo grid -->
+					</div>
+					<!-- End Portfolio Section -->
+				</div>
+
+				<!-- Contact Section -->
+				<div class="w3-padding-64 w3-content w3-text-grey" id="contact">
+					<h2 class="w3-text-light-grey">Contact Me</h2>
+					<hr style="width:200px" class="w3-opacity">
+
+					<div class="w3-section">
+						<p><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Ukraine,
+							Rivne</p>
+						<p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Тел: +380 97 32 04
+							029</p>
+						<p><i class="fa fa-telegram fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Telegram:
+							@roma_drop
+						</p>
+					</div><br>
+					<p>Давайте зв'яжемося. Заповніть форму:</p>
+
+					<form action="https://formspree.io/f/xayvopra" method="POST">
+						<p><input class="w3-input w3-padding-16" type="text" placeholder="Ім'я" required name="Name">
+						</p>
+						<p><input class="w3-input w3-padding-16" type="tel" placeholder="Телефон" required name="tel">
+						</p>
+						<p><input class="w3-input w3-padding-16" type="text" placeholder="Instagram" required
+								name="Message">
+						</p>
+						<p><input class="w3-input w3-padding-16" type="text" placeholder="Telegram" required
+								name="Message"></p>
+						<p>
+							<button class="w3-button w3-light-grey w3-padding-large" type="submit" value="send">
+								<i class="fa fa-paper-plane"></i> НАДІСЛАТИ
+							</button>
+						</p>
+					</form>
+
+					<!-- End Contact Section -->
+				</div>
+
+				<!-- Footer. This section contains an ad for W3Schools Spaces. You can leave it to support us. -->
+				<footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
+					<i><a href="https://www.facebook.com/profile.php?id=100015486154498"
+							class="fa fa-facebook-official w3-hover-opacity"></a></i>
+					<i><a href="https://www.instagram.com/roma_oleniuk/"
+							class="fa fa-instagram w3-hover-opacity"></a></i>
+					<i><a href="https://twitter.com/romich_oleniuk" class="fa fa-twitter w3-hover-opacity"></a></i>
+					<i><a href="https://t.me/roma_drop" class="fa fa-telegram w3-hover-opacity"></a></i>
+					<!-- End footer -->
+				</footer>
+
+				<!-- END PAGE CONTENT -->
+			</div>
+
+</body>
+
+</html>
